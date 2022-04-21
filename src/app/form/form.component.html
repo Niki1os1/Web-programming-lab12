@@ -1,0 +1,8 @@
+<div class="form">
+
+    <label for="nameInput">Post name</label>
+    <input #newName (input)="name = newName.value;" (keyup.enter)="!saveAttempt() || (newName.value = '' || newText.value = '')" class="lg-text-input" id="nameInput" />
+    <label for="textInput">Your text</label>
+    <textarea #newText (input)="text = newText.value;" (keyup.enter)="!saveAttempt() || (newName.value = '' || newText.value = '')" class="lg-text-input" id="textInput"> </textarea>
+
+</div>

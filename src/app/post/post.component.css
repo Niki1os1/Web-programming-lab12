@@ -1,0 +1,25 @@
+.post {
+    padding: 1em;
+    border: 0.5px solid #000;
+}
+
+.post textarea {
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    background-color: transparent;
+    border: 0px;
+}
+
+.post h3 {
+    margin: 0.8em;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.flex-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

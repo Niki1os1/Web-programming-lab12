@@ -1,0 +1,12 @@
+<div class="main">
+
+    <app-form #thisForm (save)="save($event)"></app-form>
+
+    <div class="post-list">
+        <div class="post-list__item" *ngFor="let post of posts">
+            <app-post (remove)="remove(post)" [post]="post"></app-post>
+        </div>
+    </div>
+
+
+</div>

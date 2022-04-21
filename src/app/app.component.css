@@ -1,0 +1,19 @@
+.main {
+    background-color: azure;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+li {
+    padding: 3em;
+}
+
+.post-list {
+    margin-top: 1em;
+    display: list-item;
+    background-color: #FF9B73;
+    flex-wrap: wrap;
+    gap: 2em
+}
