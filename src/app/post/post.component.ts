@@ -8,6 +8,8 @@ import { Post } from '../interfaces/post';
 })
 export class PostComponent {
   
+  highlightColor: string = 'Red';
+
   @Input()
   post!: Post;
   @Output() remove = new EventEmitter<Post>();

@@ -1,8 +1,8 @@
-<div class="post" (click)="remove.emit()">
+<div class="post" (click)="remove.emit()" appHighlight [highlightColor]="highlightColor" [highlightOpacity]="0.6">
     <div class="flex-col">
-        <h3>{{post.name}}</h3> 
+        <h3>{{post.name}}</h3>
         <small>{{date}}</small>
     </div>
     <textarea [value]="post.text" disabled></textarea>
-    
+
 </div>
